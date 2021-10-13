@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div id="main_body">
+        <p><a href="C:\Users\shaik_czdf12h\Desktop\MINI PROJECT SEM 5\homepage\index.html" id="cross"> &#10008;</a></p>
+        <p id="notes">Note:Fill the Proper Detail as per the Document, otherwise your form will be rejected.</p>
+       
+        <p id="notes1">As per provisions of Section 272B of the Income Tax Act., 1961,
+            a penalty of ₹ 10,000 can be levied on possession of more than one PAN.</p>
+        <form action="abcd/action.php">
+            <div id="block1">
+                <div id="block1_1">
+                    <p class="common_design">Application Type<span id="star">*</span></p>
+                    <select name="" id="option_btn" required>
+                        <option value="">---Please Select---</option>
+                        <option value="">New PAN - Indian Citizen (Form 49A)</option>
+                        <option value="">New PAN - Foreign Citizen (Form 49AA)</option>
+                    </select>
+                </div>
+                <div id="block1_2">
+                    <p class="common_design">Category<span id="star">*</span></p>
+                    <select name="" id="option_btn" required>
+                        <option value="">---Please Select---</option>
+                        <option value="">INDIVIDUAL</option>
+                        <option value="">ASSOCIATION OF PERSONS</option>
+                        <option value="">BODY OF INDIVIDUALS</option>
+                        <option value="">COMPANY</option>
+                        <option value="">TRUST</option>
+                        <option value="">LIMITED LIABILITY PARTNERSHIP</option>
+                    </select>
+                </div>
+                <div id="block1_3">
+                    <p class="common_design">Title<span id="star">*</span></p>
+                    <select name="" id="option_btn" required>
+                        <option value="">---Please Select---</option>
+                        <option value="">Shri</option>
+                        <option value="">Smt</option>
+                        <option value="">Kumari</option>
+                       
+                    </select>
+                </div>
+            </div>
+            <div id="block2">
+                <div id="block2_1">
+                    <p class="common_design">Email Id<span id="star">*</span></p>
+                    <input type="email" name="" id="user_input" required>
+                </div>
+                <div id="block2_2">
+                    <p class="common_design">Mobile Number<span id="star">*</span></p>
+                    <input type="tel" name="" id="user_input" required>
+                </div>
+            </div>
+            <p id="doc_upload">Upload Required Documnet</p>
+            <p id="file-format">File .jpg,.png format only not pdf or any password encrypted file.</p>
+            <div id="block3">
+                <div id="block3_1">
+                    <p id="doc">Adhaar Card<span id="star">*</span></p>
+                    <input type="file" name="" id="file1" required>
+                    
+                </div>
+                <div id="block3_2">
+                    <p id="doc">Applicant Photo<span id="star">*</span></p>
+
+                    <input type="file" name="" id="file2" required>
+                   
+                </div>
+                <div id="block3_3">
+                    <p id="doc">Applicant Signature<span id="star">*</span></p>
+
+                    <input type="file" name="" id="file3" required>
+                 
+                </div>
+            </div>
+            <div id="check-box">
+                <input type="checkbox"  name="agree" value="agree" required>
+                <label for="agree">By submitting data to us and/or using our Quick Service you give your consent that all personal
+                     data/information that you submit to avail tax related services from Quick Service Infrastructure Limited may be received, stored, processed, transmitted and or made available for view /use as mandated by law or otherwise, shall be dealt with by us in the manner and for the purposes specified /
+                     as described in the privacy policy or as mandated by law.</label><br>
+            </div>
+            <div id="submit_btn">
+                <button id="next_btn" type="submit" value="Proceed Now"><a href="https://razorpay.com/payment-link/plink_I3E7Wrhv0iLFDy">Proceed Now</a></button>
+            </div>
+        </form>
+    </div>
+   
+</body>
+</html>
